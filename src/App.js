@@ -25,6 +25,7 @@ const App = (props) => {
     `}
     </style>
     <ConstructionScreen/>
+    <button onClick={scheme.toggle}>I/O</button>
     </>
   );
 }
